@@ -35,5 +35,5 @@ public class UserEntity {
     private Date updatedOn;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
-    List<TicketEntity> ticketEntityList;
+    List<TicketEntity> listOfTickets;
 }
