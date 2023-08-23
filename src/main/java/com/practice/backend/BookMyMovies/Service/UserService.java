@@ -23,7 +23,7 @@ public class UserService {
         }
         catch (Exception e)
         {
-            return "user couldnt be added";
+            return "user could not be added";
         }
         return "User added successfully";
     }
